@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Environment files
+.env
+
+# OS files
+.DS_Store
+
+# Pi
+.pi/
+
+not-published/

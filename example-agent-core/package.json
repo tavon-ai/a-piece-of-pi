@@ -1,0 +1,17 @@
+{
+  "name": "crm-lead-qualifier",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "npx tsx src/index.ts"
+  },
+  "dependencies": {
+    "@mariozechner/pi-agent-core": "^0.65.0",
+    "@mariozechner/pi-ai": "^0.65.0",
+    "@sinclair/typebox": "^0.34.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}
