@@ -11,7 +11,7 @@ In this talk, we'll take a closer look at what's actually happening under the ho
 
 This repository contains two examples that demonstrate different approaches. Both examples implement the same use case: a **CRM Lead Qualifier** that helps sales teams score and prioritize leads.
 
-### [example-agent-core](./example-agent-core/)
+### [example-pi-agent-core](./example-pi-agent-core/)
 
 A from-scratch agent built with `@mariozechner/pi-agent-core`. Demonstrates tool definitions with TypeBox schemas, event streaming, `beforeToolCall` confirmation gates, parallel tool execution, and steering messages.
 

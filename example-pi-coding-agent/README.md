@@ -1,6 +1,6 @@
 # CRM Lead Qualifier — pi Edition
 
-The same CRM concept as [`example-agent-core`](../example-agent-core/), but using pi's coding agent harness directly.
+The same CRM concept as [`example-pi-agent-core`](../example-pi-agent-core/), but using pi's coding agent harness directly.
 No custom agent code — just markdown files, an AGENTS.md, and a small extension.
 
 ## The coding agent principle
@@ -48,9 +48,9 @@ User: "Score all new leads and tell me who to prioritize"
 
 Each step, the LLM makes one decision: **do I need another tool call, or am I done?** That decision-making in a loop is what makes it an agent rather than a single LLM call.
 
-## What's different from example-agent-core
+## What's different from example-pi-agent-core
 
-| | example-agent-core | example-pi-coding-agent |
+| | example-pi-agent-core | example-pi-coding-agent |
 |---|---|---|
 | **Runtime** | Custom Node.js app | pi coding agent |
 | **Tools** | 4 custom AgentTools | pi's built-in read/write/edit/bash |
