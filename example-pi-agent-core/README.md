@@ -25,7 +25,7 @@ You need an `ANTHROPIC_API_KEY` environment variable (or change the model in `sr
 ## Run
 
 ```bash
-npm start
+source .env; npm start
 ```
 
 ## Example prompts
